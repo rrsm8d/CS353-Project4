@@ -1,7 +1,10 @@
 # CS353-Project4
 This is a class project for a text-adventure game. The setting is a lab with a pedestal containing a gold bar and a large locked door. Your goal is to escape the lab with the gold bar.
+
 There are multiple locations branching from the center lab. The end of each path contains a colored block which serves as a key for the pedestal
+
 After obtaining all colored blocks, you are able to unlock the pedestal and door, while giving access to the gold bar.
+
 Taking the gold bar locks the escape door. If you have found a jar along your path, you may drop the jar in-place of the gold bar to make it out with the gold for the good ending.
 
 # How to run
@@ -31,22 +34,41 @@ Matthew Flatt, 2011, Creating Languages in Racket. Volume 9, Issue 11. https://q
 
 # Winning path
 east
+
 north
+
 get red-block
+
 south
+
 west
+
 north
+
 get jar (repeatedly until success)
+
 east
+
 get blue-block
+
 west
+
 south
+
 west
+
 west
+
 get green-block
+
 east
+
 east
+
 insert pedestal
+
 get gold-bar
+
 drop jar
+
 out
